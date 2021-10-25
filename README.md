@@ -1,4 +1,4 @@
-# Banco_Simulacao
+# Banco Simulação
 
 Crie uma classe abstrata ContaBancaria que contém como atributos o número da
 conta e o saldo, e como métodos virtuais sacar e depositar que recebem um
@@ -51,6 +51,6 @@ Transferir: recebe um valor e o número de outra conta. Caso a conta exista, tra
 Gerar relatório: mostra os dados da conta selecionada. Utilize o método mostraDados criado anteriormente.
 Retornar ao menu anterior: exibe o menu anterior (opções 1 a 5).
 
-11. Crie uma nova função main() num arquivo “main2.cpp” que instancie a classe Menu e a execute.
+Crie uma nova função main() num arquivo “main2.cpp” que instancie a classe Menu e a execute.
 
 Dica: Caso vocês tenham dificuldades com o método mostrarDados, devido a este não estar na ContaBancária, e sim nas classes derivadas, vocês podem contornar este problema declarando mostrarDados como uma função virtual na classe ContaBancaria.
